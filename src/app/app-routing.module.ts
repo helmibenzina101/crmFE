@@ -9,7 +9,11 @@ const routes: Routes = [
     redirectTo: 'product/home',
     pathMatch: 'full',
   },
-
+  {
+    path: 'invoice',
+    redirectTo: 'invoice/home',
+    pathMatch: 'full',
+  },
 
 ];
 

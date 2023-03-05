@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { ProductModule } from './product/product.module';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
+import { InvoiceModule } from './invoice/invoice.module';
 @NgModule({
   declarations: [
     AppComponent
@@ -14,6 +15,7 @@ import { HttpClientModule } from '@angular/common/http';
     BrowserModule,
     AppRoutingModule,
     ProductModule,
+    InvoiceModule,
     FormsModule,
     HttpClientModule
   ],
