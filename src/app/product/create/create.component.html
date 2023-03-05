@@ -1,5 +1,5 @@
 <div class="container">
-    <legend>Create Item</legend>
+    <legend>Create Product</legend>
     <form>
 
       <div class="mb-3">
@@ -10,11 +10,7 @@
         <label for="txtPrice" class="form-label">Price</label>
         <input type="number" name="price" [(ngModel)] = "productForm.price" class="form-control" id="txtPrice" />
       </div>
-      <div class="mb-3" >
-        <label for="txtIdSale" class="form-label">IdCategory</label>
-        <select type="number" name="idsale" [(ngModel)] = "productForm.sale.id" class="form-control" id="txtIdCategory" >
-             
-          <option *ngFor="let item of allsales" value={{item.id}}> {{item.quantity}} </option>
-          </select>
-        <!--<input type="number" name="idcategory" [(ngModel)] = "productForm.category.id" class="form-control" id="txtIdCategory" />-->
-      </div>      
+
+      <button type="button" (click)="create()" class="btn btn-primary">Create</button>
+    </form>
+</div>  
