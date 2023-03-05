@@ -2,13 +2,14 @@
     <legend>Edit Item</legend>
     <form>
       <div class="mb-3">
-        <label for="txtName" class="form-label">Name</label>
-        <input type="text" name="name" [(ngModel)] = "productForm.name" class="form-control" id="txtName" />
+        <label for="txtName" class="form-label">nameClient</label>
+        <input type="text" name="name" [(ngModel)] = "clientForm.nameClient" class="form-control" id="txtName" />
       </div>
       <div class="mb-3">
-        <label for="txtPrice" class="form-label">Price</label>
-        <input type="number" name="price" [(ngModel)] = "productForm.price" class="form-control" id="txtPrice" />
+        <label for="txtName" class="form-label">email</label>
+        <input type="text" name="name" [(ngModel)] = "clientForm.email" class="form-control" id="txtName" />
       </div>
+
      
       
       <button type="button" (click)="update()" class="btn btn-primary">Update</button>
