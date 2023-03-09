@@ -7,6 +7,7 @@ import { CreateComponent } from './create/create.component';
 import { EditComponent } from './edit/edit.component';
 import { CreatesaleComponent } from './createsale/createsale.component';
 import { EditsaleComponent } from './editsale/editsale.component';
+import { FormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -19,7 +20,8 @@ import { EditsaleComponent } from './editsale/editsale.component';
   ],
   imports: [
     CommonModule,
-    InvoiceRoutingModule
+    InvoiceRoutingModule,
+    FormsModule
   ]
 })
 export class InvoiceModule { }
