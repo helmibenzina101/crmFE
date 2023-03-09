@@ -14,6 +14,7 @@ export class CreateComponent implements OnInit{
       id: 0,
       name: '',
       price: 0,
+      tax: 0
 
     };
   

@@ -10,7 +10,10 @@
         <label for="txtPrice" class="form-label">Price</label>
         <input type="number" name="price" [(ngModel)] = "productForm.price" class="form-control" id="txtPrice" />
       </div>
-
+      <div class="mb-3">
+        <label for="txtTax" class="form-label">TAX</label>
+        <input type="number" name="tax" [(ngModel)] = "productForm.tax" class="form-control" id="txtTax" />
+      </div>
       <button type="button" (click)="create()" class="btn btn-primary">Create</button>
     </form>
 </div>  

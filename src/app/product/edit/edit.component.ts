@@ -13,6 +13,7 @@ export class EditComponent implements OnInit {
     id: 0,
     name: '',
     price: 0,
+    tax: 0
 
   };
   constructor(
