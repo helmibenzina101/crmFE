@@ -1,0 +1,16 @@
+<div class="container">
+    <legend>Create Product</legend>
+    <form>
+
+      <div class="mb-3">
+        <label for="txtName" class="form-label">nameClient</label>
+        <input type="text" name="name" [(ngModel)] = "productForm.nameClient" class="form-control" id="txtName" />
+      </div>
+      <div class="mb-3">
+        <label for="txtPrice" class="form-label">email</label>
+        <input type="text" name="email" [(ngModel)] = "productForm.email" class="form-control" id="txtPrice" />
+      </div>
+
+      <button type="button" (click)="create()" class="btn btn-primary">Create</button>
+    </form>
+</div>  
